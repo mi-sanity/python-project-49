@@ -1,4 +1,6 @@
-setup: install build publish package-install
+setup1: install build publish package-install
+
+setup2: install build publish package-reinstall
 
 install:
 	poetry install
@@ -14,6 +16,9 @@ publish:
 
 package-install:
 	python3 -m pip install --user dist/*.whl
+
+package-reinstall:
+	python3 -m pip install --force-reinstall --user dist/*.whl
 
 
 .PHONY: install
