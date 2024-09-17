@@ -2,6 +2,8 @@ setup1: install build publish package-install
 
 setup2: install build publish package-reinstall
 
+setup3: build package-reinstall
+
 install:
 	poetry install
 
