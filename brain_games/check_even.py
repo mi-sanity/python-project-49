@@ -1,30 +1,23 @@
 #!/usr/bin/env python3
 
 import prompt
-import random
 
 
-def even_number():
+def engine_game(game_module):
     name = prompt.string('''Welcome to the Brain Games!
 May I have your name? ''')
-    print(f'''Hello, {name}!
-Answer "yes" if the number is even, otherwise answer "no".''')
+    print(f'Hello, {name}!\n{question}')
 
-    count_ans = 0
-    while count_ans < 3:
-        random_number = random.randint(1, 10)
-        ans = prompt.string(f'''Question: {random_number}
-Your answer: ''')
-        if random_number % 2 == 0 and ans.lower() == 'yes':
-            count_ans = count_ans + 1
-            print('Correct!')
-        elif random_number % 2 == 0 and ans.lower() != 'yes':
-            return print(f'''"{ans}" is wrong answer ;(. Correct answer was "yes".
-Let's try again, {name}!''')
-        elif random_number % 2 != 0 and ans.lower() == 'no':
-            count_ans = count_ans + 1
+    count_answer = 0
+    while count_answer < 3:
+        if_for_games = game_module.function()
+        print(if_for_games)
+        
+        if user_answer == right_answer:
+            count_answer = count_answer + 1
             print('Correct!')
         else:
-            return print(f'''"{ans}" is wrong answer ;(. Correct answer was "no".
+            return print(f'''"{user_answer}" is wrong answer ;(. Correct answer was "{right_answer}".
 Let's try again, {name}!''')
     return print(f'Congratulations, {name}!')
+
