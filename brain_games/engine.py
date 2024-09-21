@@ -11,7 +11,7 @@ May I have your name? ''')
     count_answer = 0
     while count_answer < 3:
         game_module.game_condition()
-        user_answer = prompt.string(f'Your answer: ')
+        user_answer = prompt.string('Your answer: ')
         right_answer = game_module.answer()
 
         if user_answer == right_answer:

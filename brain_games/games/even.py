@@ -5,6 +5,7 @@ import random
 
 welcome_question = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def game_condition():
     global random_number
     random_number = random.randint(1, 10)

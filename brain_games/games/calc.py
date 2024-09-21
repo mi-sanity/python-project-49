@@ -5,8 +5,9 @@ import random
 
 welcome_question = 'What is the result of the expression?'
 
+
 def game_condition():
-    global random_number1 
+    global random_number1
     global random_number2
     global random_symbol
     random_number1 = random.randint(1, 10)
