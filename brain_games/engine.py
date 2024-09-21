@@ -6,13 +6,14 @@ import prompt
 def engine_game(game_module):
     name = prompt.string('''Welcome to the Brain Games!
 May I have your name? ''')
-    print(f'Hello, {name}!\n{question}')
+    print(f'Hello, {name}!\n{game_module.welcome_question}')
 
     count_answer = 0
     while count_answer < 3:
-        if_for_games = game_module.function()
-        print(if_for_games)
-        
+        game_module.game_condition()
+        user_answer = prompt.string(f'Your answer: ')
+        right_answer = game_module.answer()
+
         if user_answer == right_answer:
             count_answer = count_answer + 1
             print('Correct!')
@@ -20,4 +21,3 @@ May I have your name? ''')
             return print(f'''"{user_answer}" is wrong answer ;(. Correct answer was "{right_answer}".
 Let's try again, {name}!''')
     return print(f'Congratulations, {name}!')
-

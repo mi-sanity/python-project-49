@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.games.calc import calc_number
+from brain_games.games import calc
+from brain_games import engine
 
 
 def main():
-    calc_number()
+    engine.engine_game(calc)
     return
 
 

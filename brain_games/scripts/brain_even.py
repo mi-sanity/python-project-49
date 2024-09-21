@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 from brain_games.games import even
-from brain_games import check_even
+from brain_games import engine
 
 
 def main():
-    check_even.engine_game(even)
+    engine.engine_game(even)
     return
 
 

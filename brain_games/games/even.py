@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 
 import random
-import prompt
 
-question = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-def function():
+welcome_question = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+def game_condition():
+    global random_number
     random_number = random.randint(1, 10)
-    user_answer = prompt.string(f'''Question: {random_number}
-Your answer: ''')
+    print(f'Question: {random_number}')
 
+
+def answer():
     if random_number % 2 == 0:
-        right_answer = 'yes'
+        return 'yes'
     elif random_number % 2 != 0:
-        right_answer = 'no'
-
-
-
+        return 'no'
