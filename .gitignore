@@ -1,6 +1,4 @@
 .venv/
 dist/
-demo.cast
-calc.cast
-gcd.cast
+*.cast
 __pycache__
