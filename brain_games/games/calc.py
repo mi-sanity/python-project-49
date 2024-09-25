@@ -3,7 +3,7 @@
 import random
 
 
-welcome_question = 'What is the result of the expression?'
+question = 'What is the result of the expression?'
 
 
 def game_condition():

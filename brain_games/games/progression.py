@@ -3,7 +3,7 @@
 import random
 
 
-welcome_question = 'What number is missing in the progression?'
+question = 'What number is missing in the progression?'
 
 
 def game_condition():

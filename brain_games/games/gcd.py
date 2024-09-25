@@ -3,7 +3,7 @@
 import random
 
 
-welcome_question = 'Find the greatest common divisor of given numbers.'
+question = 'Find the greatest common divisor of given numbers.'
 
 
 def game_condition():
