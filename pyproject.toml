@@ -1,9 +1,15 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Project Mind Games"
 authors = ["Olesia Pankova <pankovaolesya77@yandex.ru>"]
 readme = "README.md"
+repository = "https://github.com/mi-sanity/python-project-49"
+classifiers = [
+  "Intended Audience :: Users",
+  "Topic :: Game Development :: Games",
+  "Programming Language :: Python :: ^3.6"
+]
 packages = [
   { include = "brain_games" },
 ]
