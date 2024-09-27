@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
 import random
 
 
-question = 'What number is missing in the progression?'
+QUESTION = 'What number is missing in the progression?'
 
 
 def game_condition():

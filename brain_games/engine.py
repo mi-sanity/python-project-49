@@ -1,12 +1,10 @@
-#!/usr/bin/env python3
-
 import prompt
 
 
 def engine_game(game_module):
     name = prompt.string('''Welcome to the Brain Games!
 May I have your name? ''')
-    print(f'Hello, {name}!\n{game_module.question}')
+    print(f'Hello, {name}!\n{game_module.QUESTION}')
 
     count_answer = 0
     while count_answer < 3:

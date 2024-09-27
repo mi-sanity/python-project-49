@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
 import random
 
 
-question = 'What is the result of the expression?'
+QUESTION = 'What is the result of the expression?'
 
 
 def game_condition():

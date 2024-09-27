@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
 import random
 
 
-question = 'Answer "yes" if the number is even, otherwise answer "no".'
+QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def game_condition():

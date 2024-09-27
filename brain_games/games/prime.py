@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
 import random
 import math
 
-question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def game_condition():

@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
 import random
 
 
-question = 'Find the greatest common divisor of given numbers.'
+QUESTION = 'Find the greatest common divisor of given numbers.'
 
 
 def game_condition():
