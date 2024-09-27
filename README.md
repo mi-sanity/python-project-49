@@ -24,17 +24,17 @@ python3 -m pip install brain-games
 ```
 
 ## Demo:
-- brain-even
-<script src="https://asciinema.org/a/6X2svkwXCgiVFv5d4YDRJ8bIM.js" id="asciicast-6X2svkwXCgiVFv5d4YDRJ8bIM" async="true"></script>
+*brain-even*
+[![asciicast](https://asciinema.org/a/6X2svkwXCgiVFv5d4YDRJ8bIM.svg)](https://asciinema.org/a/6X2svkwXCgiVFv5d4YDRJ8bIM)
 
-- brain-calc
-<script src="https://asciinema.org/a/TXRxXSUJMm7h4xKvoM0TXmfVE.js" id="asciicast-TXRxXSUJMm7h4xKvoM0TXmfVE" async="true"></script>
+*brain-calc*
+[![asciicast](https://asciinema.org/a/TXRxXSUJMm7h4xKvoM0TXmfVE.svg)](https://asciinema.org/a/TXRxXSUJMm7h4xKvoM0TXmfVE)
 
-- brain-gcd
-<script src="https://asciinema.org/a/vEsgEmArIUipL8Vr2J4bHuGz5.js" id="asciicast-vEsgEmArIUipL8Vr2J4bHuGz5" async="true"></script>
+*brain-gcd*
+[![asciicast](https://asciinema.org/a/vEsgEmArIUipL8Vr2J4bHuGz5.svg)](https://asciinema.org/a/vEsgEmArIUipL8Vr2J4bHuGz5)
 
-- brain-progression
-<script src="https://asciinema.org/a/5ryQ04MdX4DCgXGkTMBGi1JeG.js" id="asciicast-5ryQ04MdX4DCgXGkTMBGi1JeG" async="true"></script>
+*brain-progression*
+[![asciicast](https://asciinema.org/a/5ryQ04MdX4DCgXGkTMBGi1JeG.svg)](https://asciinema.org/a/5ryQ04MdX4DCgXGkTMBGi1JeG)
 
-- brain-prime
-<script src="https://asciinema.org/a/LYfPXQkFlBFLDBLvY2sVi7nj0.js" id="asciicast-LYfPXQkFlBFLDBLvY2sVi7nj0" async="true"></script>
+*brain-prime*
+[![asciicast](https://asciinema.org/a/LYfPXQkFlBFLDBLvY2sVi7nj0.svg)](https://asciinema.org/a/LYfPXQkFlBFLDBLvY2sVi7nj0)
