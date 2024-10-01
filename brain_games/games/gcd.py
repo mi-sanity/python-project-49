@@ -4,23 +4,16 @@ import random
 QUESTION = 'Find the greatest common divisor of given numbers.'
 
 
-def game_condition():
-    global random_number1
-    global random_number2
-    random_number1 = random.randint(1, 10)
-    random_number2 = random.randint(1, 10)
-    print(f'Question: {random_number1} {random_number2}')
+def game_question_right_answer():
+    number1 = random.randint(1, 10)
+    number2 = random.randint(1, 10)
+    game_question = f'{number1} {number2}'
 
-
-def answer():
-    random_number3 = random_number1
-    random_number4 = random_number2
-
-    while random_number3 != 0 and random_number4 != 0:
-        if random_number3 > random_number4:
-            random_number3 = random_number3 % random_number4
-            result = random_number3 + random_number4
+    while number1 != 0 and number2 != 0:
+        if number1 > number2:
+            number1 = number1 % number2
+            right_answer = number1 + number2
         else:
-            random_number4 = random_number4 % random_number3
-            result = random_number3 + random_number4
-    return str(result)
+            number2 = number2 % number1
+            right_answer = number1 + number2
+    return game_question, right_answer
