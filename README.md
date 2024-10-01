@@ -6,11 +6,15 @@
 
 
 # Project "Mind Games"
-- **brain-even**: the user is shown a random number and has to answer "yes" if the number is even or "no" if it is odd.
-- **brain-calc**: the user is shown a random mathematical expression, e.g. "35 + 16", to calculate and record the correct answer.
-- **brain-gcd**: the user is shown two random numbers, e.g. "25 50", and needs to calculate and enter the greatest common divisor of these numbers.
-- **brain-progression**: the user is shown a series of numbers that form an arithmetic progression with a hidden number and needs to identify that number.
-- **brain-prime**: the user is shown a random number and has to answer "yes" if the number is prime, otherwise the answer is "no".
+- **brain-even**: the player is shown a random number and has to answer "yes" if the number is even or "no" if it is odd.
+- **brain-calc**: the player is shown a random mathematical expression, e.g. "35 + 16", to calculate and record the correct answer.
+- **brain-gcd**: the player is shown two random numbers, e.g. "25 50", and needs to calculate and enter the greatest common divisor of these numbers.
+- **brain-progression**: the player is shown a series of numbers that form an arithmetic progression with a hidden number and needs to identify that number.
+- **brain-prime**: the player is shown a random number and has to answer "yes" if the number is prime, otherwise the answer is "no".
+
+*The player will need to answer correctly 3 times to win the game.*
+
+*If the answer is wrong, the game will end.*
 
 ## Minimum requirements
 To install and run the project, you need:
@@ -20,7 +24,9 @@ To install and run the project, you need:
 
 ## Installation
 ```pytnon
-python3 -m pip install brain-games
+make install
+make build
+make package-install
 ```
 
 ## Demo:
