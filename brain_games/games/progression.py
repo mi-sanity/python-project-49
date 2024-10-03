@@ -4,13 +4,13 @@ import random
 QUESTION = 'What number is missing in the progression?'
 
 
-def game_question_right_answer():
+def get_question_and_answer():
     start = random.randint(1, 20)
     step = random.randint(1, 10)
-    list_progression = []
+    length = random.randint(7, 10)
+    stop = start + step * length
 
-    for i in range(10):
-        list_progression.append(start + step * i)
+    list_progression = list(range(start, stop, step))
 
     index = random.randint(0, 9)
     hidden_element = list_progression[index]

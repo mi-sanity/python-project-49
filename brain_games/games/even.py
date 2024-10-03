@@ -4,7 +4,7 @@ import random
 QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def game_question_right_answer():
+def get_question_and_answer():
     game_question = random.randint(1, 10)
 
     if game_question % 2 == 0:

@@ -4,7 +4,7 @@ import random
 QUESTION = 'What is the result of the expression?'
 
 
-def game_question_right_answer():
+def get_question_and_answer():
     number1 = random.randint(1, 10)
     number2 = random.randint(1, 10)
     symbol = random.choice(['+', '-', '*'])
@@ -14,7 +14,7 @@ def game_question_right_answer():
         right_answer = number1 + number2
     elif symbol == '-':
         right_answer = number1 - number2
-    else:
+    elif symbol == '*':
         right_answer = number1 * number2
 
     return game_question, right_answer
