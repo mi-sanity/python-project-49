@@ -2,13 +2,12 @@ import random
 
 
 QUESTION = 'What number is missing in the progression?'
-
+LENGTH = 10
 
 def get_question_and_answer():
     start = random.randint(1, 20)
     step = random.randint(1, 10)
-    length = random.randint(7, 10)
-    stop = start + step * length
+    stop = start + step * LENGTH
 
     list_progression = list(range(start, stop, step))
 
