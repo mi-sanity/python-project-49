@@ -4,6 +4,7 @@ import random
 QUESTION = 'What number is missing in the progression?'
 LENGTH = 10
 
+
 def get_question_and_answer():
     start = random.randint(1, 20)
     step = random.randint(1, 10)
